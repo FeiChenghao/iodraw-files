@@ -75,7 +75,7 @@
         </mxCell>
         <mxCell id="v_guvrckSU65M0w9_LWl-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;" edge="1" parent="1" source="v_guvrckSU65M0w9_LWl-84">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="520" as="targetPoint" />
+            <mxPoint x="380" y="530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="v_guvrckSU65M0w9_LWl-84" value="Bi-LSTM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
