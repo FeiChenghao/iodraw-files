@@ -75,7 +75,7 @@
         </mxCell>
         <mxCell id="v_guvrckSU65M0w9_LWl-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#808080;" edge="1" parent="1" source="v_guvrckSU65M0w9_LWl-84">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="530" as="targetPoint" />
+            <mxPoint x="380" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="v_guvrckSU65M0w9_LWl-84" value="Bi-LSTM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
@@ -400,7 +400,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="v_guvrckSU65M0w9_LWl-189" value="功效序列" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-          <mxGeometry x="320" y="540" width="120" height="40" as="geometry" />
+          <mxGeometry x="320" y="530" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v_guvrckSU65M0w9_LWl-190" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
           <mxGeometry x="120" y="520" width="20" height="60" as="geometry" />
