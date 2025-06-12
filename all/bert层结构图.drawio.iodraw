@@ -211,11 +211,14 @@
             <mxPoint x="215" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="McGEEjL9P4pgBm7hXM2n-98" value="编码器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="McGEEjL9P4pgBm7hXM2n-98" value="编码器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" vertex="1" parent="1">
           <mxGeometry x="200" y="380" width="440" height="40" as="geometry" />
         </mxCell>
         <mxCell id="McGEEjL9P4pgBm7hXM2n-99" value="编码器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="200" y="160" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="McGEEjL9P4pgBm7hXM2n-100" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="135" y="168" width="50" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
