@@ -25,21 +25,6 @@
         <mxCell id="McGEEjL9P4pgBm7hXM2n-17" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="225" y="495" width="10" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="McGEEjL9P4pgBm7hXM2n-18" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.043;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#808080;" edge="1" parent="1" source="McGEEjL9P4pgBm7hXM2n-13">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="215" y="475" as="sourcePoint" />
-            <mxPoint x="215" y="485" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="McGEEjL9P4pgBm7hXM2n-19" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.043;exitY=-0.002;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#808080;" edge="1" parent="1" source="McGEEjL9P4pgBm7hXM2n-13">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="205" y="445" as="sourcePoint" />
-            <mxPoint x="215" y="405" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="215" y="415" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="McGEEjL9P4pgBm7hXM2n-21" value="Bi-LSTM" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="195" y="535" width="460" height="40" as="geometry" />
         </mxCell>
@@ -280,6 +265,12 @@
         </mxCell>
         <mxCell id="McGEEjL9P4pgBm7hXM2n-95" value="编码器" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="200" y="240" width="440" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="McGEEjL9P4pgBm7hXM2n-96" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.043;exitY=0.998;exitDx=0;exitDy=0;exitPerimeter=0;strokeColor=#808080;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="460" as="sourcePoint" />
+            <mxPoint x="215" y="480" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
