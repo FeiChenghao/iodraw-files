@@ -400,7 +400,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="v_guvrckSU65M0w9_LWl-189" value="功效序列" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="320" y="530" width="120" height="40" as="geometry" />
+          <mxGeometry x="305" y="610" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="v_guvrckSU65M0w9_LWl-190" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="120" y="520" width="20" height="60" as="geometry" />
