@@ -96,8 +96,8 @@
         <mxCell id="v_guvrckSU65M0w9_LWl-97" value="预训练" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="65" y="345" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="v_guvrckSU65M0w9_LWl-98" value="分类头" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="65" y="455" width="60" height="30" as="geometry" />
+        <mxCell id="v_guvrckSU65M0w9_LWl-98" value="特征提取" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="60" y="455" width="70" height="30" as="geometry" />
         </mxCell>
         <mxCell id="v_guvrckSU65M0w9_LWl-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=none;shape=link;" parent="1" source="v_guvrckSU65M0w9_LWl-24" target="v_guvrckSU65M0w9_LWl-100" edge="1">
           <mxGeometry relative="1" as="geometry">
