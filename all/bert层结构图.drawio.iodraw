@@ -199,6 +199,9 @@
         <mxCell id="McGEEjL9P4pgBm7hXM2n-113" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="650" y="480" width="10" height="10" as="geometry" />
         </mxCell>
+        <mxCell id="McGEEjL9P4pgBm7hXM2n-124" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
