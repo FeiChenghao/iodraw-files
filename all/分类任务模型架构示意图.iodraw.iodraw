@@ -408,7 +408,7 @@
         <mxCell id="v_guvrckSU65M0w9_LWl-191" value="输出" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="65" y="615" width="50" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AOpV2ItOW8C7fvcjptBw-3" value="分类头" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="AOpV2ItOW8C7fvcjptBw-3" value="分类头" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="150" y="530" width="460" height="40" as="geometry" />
         </mxCell>
         <mxCell id="AOpV2ItOW8C7fvcjptBw-4" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
