@@ -144,7 +144,7 @@
         <mxCell id="gIrKSQzxlNgPqct7jJk7-56" value="原始文本" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="427" y="620" width="124" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-57" value="Token Embedding" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-57" value="Token Embedding" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="397" y="719" width="185" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-58" value="&#39;清热&#39;" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
