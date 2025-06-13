@@ -4,7 +4,7 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="d32GJh7KkSoEozv92XEO-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;dashed=1;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="-50" y="550" width="420" height="300" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-1" value="输入药效文本" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
@@ -144,7 +144,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-30" value="交叉注意力" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;dashed=1;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-30" value="交叉注意力" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="840" y="510" width="467" height="620" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-31" value="药效多粒度特征" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="d32GJh7KkSoEozv92XEO-30">
