@@ -196,7 +196,7 @@
           <mxGeometry x="412" y="1562" width="124" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-73" value="输出层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="420" y="1726" width="108" height="49" as="geometry" />
+          <mxGeometry x="420.5" y="1705" width="108" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-74" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-56" target="gIrKSQzxlNgPqct7jJk7-57">
           <mxGeometry relative="1" as="geometry">
@@ -354,10 +354,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-98" value="全局语义特征&#xa;(如药效关联)" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-72" target="gIrKSQzxlNgPqct7jJk7-73">
-          <mxGeometry x="0.0261" y="26" relative="1" as="geometry">
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-98" value="全局语义特征&#xa;(如药效关联)" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;fontSize=12;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-72" target="gIrKSQzxlNgPqct7jJk7-73">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points" />
-            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
