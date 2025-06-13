@@ -225,7 +225,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-37" value="加权求和输出" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-37" value="加权求和输出" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="808.5" y="930" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-73" value="" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="d32GJh7KkSoEozv92XEO-36" target="d32GJh7KkSoEozv92XEO-37">
@@ -235,7 +235,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-79" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;交叉注意力&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=16;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="861" y="570" width="60" height="21" as="geometry" />
+          <mxGeometry x="861" y="570" width="109" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
