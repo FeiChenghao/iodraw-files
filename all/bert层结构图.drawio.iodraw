@@ -139,7 +139,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-54" value="" style="whiteSpace=wrap;strokeWidth=2;dashed=1;rounded=1;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="257" y="1260" width="435" height="330" as="geometry" />
+          <mxGeometry x="257" y="1270" width="435" height="320" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-55" value="" style="whiteSpace=wrap;strokeWidth=2;rounded=1;glass=0;dashed=1;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="40" y="850" width="900" height="340" as="geometry" />
@@ -178,7 +178,7 @@
           <mxGeometry x="370" y="1099" width="204.5" height="69" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-67" value="F" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="441" y="1270" width="68" height="49" as="geometry" />
+          <mxGeometry x="440.5" y="1290" width="68" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-68" value="前向LSTM单元" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="289" y="1364" width="160" height="49" as="geometry" />
