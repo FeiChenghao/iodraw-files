@@ -162,9 +162,6 @@
         <mxCell id="d32GJh7KkSoEozv92XEO-70" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="d32GJh7KkSoEozv92XEO-30" source="d32GJh7KkSoEozv92XEO-34" target="d32GJh7KkSoEozv92XEO-35">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-74" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="d32GJh7KkSoEozv92XEO-30" source="d32GJh7KkSoEozv92XEO-34" target="d32GJh7KkSoEozv92XEO-30">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-34" value="K/V向量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="d32GJh7KkSoEozv92XEO-30">
           <mxGeometry x="294.5" y="121" width="119" height="50" as="geometry" />
         </mxCell>
