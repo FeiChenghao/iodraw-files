@@ -190,10 +190,10 @@
           <mxGeometry x="291" y="1440" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-71" value="后向隐藏状态" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="503" y="1450" width="156" height="49" as="geometry" />
+          <mxGeometry x="501" y="1440" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-72" value="特征拼接" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="390" y="1550" width="170" height="50" as="geometry" />
+          <mxGeometry x="390" y="1540" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-73" value="输出层" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="421" y="1670" width="108" height="49" as="geometry" />
