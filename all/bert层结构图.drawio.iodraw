@@ -187,7 +187,7 @@
           <mxGeometry x="499" y="1364" width="160" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-70" value="前向隐藏状态" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="291" y="1450" width="156" height="49" as="geometry" />
+          <mxGeometry x="291" y="1440" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-71" value="后向隐藏状态" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="503" y="1450" width="156" height="49" as="geometry" />
