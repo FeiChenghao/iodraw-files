@@ -144,7 +144,7 @@
         <mxCell id="gIrKSQzxlNgPqct7jJk7-55" value="" style="whiteSpace=wrap;strokeWidth=2;rounded=1;glass=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="810" width="900" height="370" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-56" value="原始文本" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-56" value="原始文本" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="427" y="620" width="124" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-57" value="Token Embedding" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
@@ -180,7 +180,7 @@
         <mxCell id="gIrKSQzxlNgPqct7jJk7-67" value="F" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="440" y="1265" width="68" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-68" value="前向LSTM单元" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-68" value="前向LSTM单元" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="289" y="1364" width="160" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-69" value="后向LSTM单元" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
@@ -195,7 +195,7 @@
         <mxCell id="gIrKSQzxlNgPqct7jJk7-72" value="特征拼接" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="412" y="1562" width="124" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-73" value="输出层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-73" value="输出层" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="420.5" y="1705" width="108" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-74" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-56" target="gIrKSQzxlNgPqct7jJk7-57">
