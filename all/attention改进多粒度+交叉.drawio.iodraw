@@ -22,16 +22,16 @@
         <mxCell id="d32GJh7KkSoEozv92XEO-4" value="BERT编码" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="787" y="150" width="128" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-5" value="BiLSTM层次化编码" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-5" value="BiLSTM层次化编码" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="189" y="218" width="190" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-6" value="BiLSTM层次化编码" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-6" value="BiLSTM层次化编码" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="756" y="218" width="190" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-7" value="局部注意力: CNN滑动窗口" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-7" value="局部注意力: CNN滑动窗口" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="20" y="317" width="245" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-8" value="全局注意力: CLS Token" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-8" value="全局注意力: CLS Token" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="315" y="317" width="222" height="49" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-9" value="局部注意力: CNN滑动窗口" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
