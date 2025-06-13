@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="nYeYSE295pqFi3LD-k2e">
-    <mxGraphModel dx="2253" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1642" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,10 +151,13 @@
           <mxGeometry x="46" y="46" width="172" height="49" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-32" value="Q向量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="d32GJh7KkSoEozv92XEO-30">
-          <mxGeometry x="80.5" y="130" width="103" height="49" as="geometry" />
+          <mxGeometry x="80.5" y="130" width="103" height="50" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-33" value="功效多粒度特征" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="d32GJh7KkSoEozv92XEO-30">
           <mxGeometry x="268" y="46" width="172" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="d32GJh7KkSoEozv92XEO-67" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="d32GJh7KkSoEozv92XEO-30" source="d32GJh7KkSoEozv92XEO-34" target="d32GJh7KkSoEozv92XEO-35">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-34" value="K/V向量" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="d32GJh7KkSoEozv92XEO-30">
           <mxGeometry x="294.5" y="130" width="119" height="49" as="geometry" />
