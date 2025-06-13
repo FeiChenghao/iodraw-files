@@ -174,7 +174,7 @@
         <mxCell id="d32GJh7KkSoEozv92XEO-48" value="活血,化瘀" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="268.5" y="765.5" width="158" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-50" value="多粒度特征" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-50" value="多粒度特征" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="151.5" y="845.5" width="157" height="40" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-62" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="d32GJh7KkSoEozv92XEO-49" target="d32GJh7KkSoEozv92XEO-50">
@@ -186,7 +186,7 @@
         <mxCell id="d32GJh7KkSoEozv92XEO-66" value="多粒度注意力" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=16;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="170" y="566.5" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-31" value="药效多粒度特征" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-31" value="药效多粒度特征" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="699" y="606" width="172" height="49" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-72" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=16;fontColor=default;labelBackgroundColor=default;endArrow=classic;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d32GJh7KkSoEozv92XEO-32" target="d32GJh7KkSoEozv92XEO-35">
