@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="d32GJh7KkSoEozv92XEO-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
-          <mxGeometry x="-50" y="550" width="420" height="300" as="geometry" />
+          <mxGeometry x="-50" y="520" width="420" height="330" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-1" value="输入药效文本" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="206" y="20" width="156" height="49" as="geometry" />
@@ -247,6 +247,9 @@
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-49" value="活血化瘀:0.9" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-38.25" y="720" width="156.5" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="d32GJh7KkSoEozv92XEO-66" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="450" y="808" width="40" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
