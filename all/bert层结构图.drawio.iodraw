@@ -355,8 +355,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-98" value="全局语义特征&#xa;(如药效关联)" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-72" target="gIrKSQzxlNgPqct7jJk7-73">
-          <mxGeometry relative="1" as="geometry">
+          <mxGeometry x="0.0261" y="26" relative="1" as="geometry">
             <Array as="points" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
