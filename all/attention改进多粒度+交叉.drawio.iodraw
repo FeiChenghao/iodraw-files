@@ -47,10 +47,10 @@
           <mxGeometry x="765" y="410" width="172" height="49" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-13" value="交叉注意力: Q=药效, K/V=功效" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="463" y="515" width="208" height="67" as="geometry" />
+          <mxGeometry x="463" y="480" width="208" height="67" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-14" value="语义对齐得分" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
-          <mxGeometry x="489" y="632" width="156" height="49" as="geometry" />
+          <mxGeometry x="489" y="601" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;fontSize=16;" edge="1" parent="1" source="d32GJh7KkSoEozv92XEO-1" target="d32GJh7KkSoEozv92XEO-2">
           <mxGeometry relative="1" as="geometry">
