@@ -13,13 +13,13 @@
         <mxCell id="d32GJh7KkSoEozv92XEO-1" value="输入药效文本" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="206" y="80" width="156" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-2" value="BERT编码" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-2" value="BERT编码" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="220" y="150" width="128" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-3" value="输入功效文本" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-3" value="输入功效文本" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="773" y="80" width="156" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-4" value="BERT编码" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-4" value="BERT编码" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="787" y="150" width="128" height="49" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-5" value="BiLSTM层次化编码" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
