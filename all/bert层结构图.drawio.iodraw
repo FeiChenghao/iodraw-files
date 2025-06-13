@@ -171,7 +171,7 @@
         <mxCell id="gIrKSQzxlNgPqct7jJk7-65" value="后向隐藏状态" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="642.5" y="1041" width="156" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-66" value="特征拼接" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-66" value="特征拼接" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="412.5" y="1110" width="124" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-67" value="F" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
