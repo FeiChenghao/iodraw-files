@@ -34,16 +34,16 @@
         <mxCell id="d32GJh7KkSoEozv92XEO-8" value="全局注意力: CLS Token" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="315" y="317" width="222" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-9" value="局部注意力: CNN滑动窗口" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-9" value="局部注意力: CNN滑动窗口" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="587" y="317" width="245" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-10" value="全局注意力: CLS Token" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-10" value="全局注意力: CLS Token" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="881" y="317" width="222" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-11" value="药效多粒度特征" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-11" value="药效多粒度特征" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="198" y="410" width="172" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-12" value="功效多粒度特征" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-12" value="功效多粒度特征" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="765" y="410" width="172" height="49" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-13" value="交叉注意力: Q=药效, K/V=功效" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
