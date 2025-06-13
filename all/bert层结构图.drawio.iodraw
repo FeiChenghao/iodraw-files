@@ -4,77 +4,136 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-1" value="graph TD" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="220" y="90" width="380" height="624" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-25" value="第二层 Bi-LSTM: 建模全局语义" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="24" width="712" height="218" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-2" value="    %% 输入层" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="26" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-26" value="第一层 Bi-LSTM: 捕捉局部短语" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="277" y="20" width="958" height="227" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-3" value="    A[输入文本: &quot;清热凉血 解毒化瘀 用于血热毒盛&quot;] --&gt; B[字/词嵌入层]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="52" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-27" value="输入文本 Embedding" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="109" width="207" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-4" value="    " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="78" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-28" value="字/词向量: x₁, x₂, x₃, x₄" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="302" y="109" width="239" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-5" value="    %% 第一层 Bi-LSTM（局部短语级）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="104" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-29" value="前向LSTM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="592" y="59" width="128" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-6" value="    B --&gt; C[Bi-LSTM 第一层]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="130" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-30" value="后向LSTM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="592" y="158" width="128" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-7" value="    C --&gt; D[&quot;捕捉局部短语特征:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="156" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-31" value="h₁₁→ (清热)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="770" y="59" width="149" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-8" value="            - &#39;清热凉血&#39; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="182" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-32" value="h₁₂← (凉血)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="770" y="158" width="149" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-9" value="            - &#39;解毒化瘀&#39;&quot;]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="208" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-33" value="拼接: [h₁₁;h₁₂] = 短语&#39;清热凉血&#39;" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="970" y="100" width="241" height="67" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-10" value="    " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="234" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-34" value="前向LSTM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="59" width="128" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-11" value="    %% 第二层 Bi-LSTM（全局语义级）" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="260" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-35" value="后向LSTM" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="158" width="128" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-12" value="    D --&gt; E[Bi-LSTM 第二层]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="286" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-36" value="h₂₁→ (药效关联)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1489" y="59" width="181" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-13" value="    E --&gt; F[&quot;建模全局语义关联:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="312" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-37" value="h₂₂← (治疗目标)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1489" y="158" width="181" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-14" value="            - &#39;清热凉血&#39; → 治疗&#39;血热毒盛&#39;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="338" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-38" value="拼接: [h₂₁;h₂₂] = 全局语义" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1720" y="109" width="252" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-15" value="            - 药效逻辑组合&quot;]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="364" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-39" value="任务输出: 分类/序列标注" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="2047" y="109" width="239" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-16" value="    " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="390" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-27" target="gIrKSQzxlNgPqct7jJk7-28">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-17" value="    %% 输出层" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="416" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.8;exitY=0;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-28" target="gIrKSQzxlNgPqct7jJk7-29">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="567" y="84" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-18" value="    F --&gt; G[任务输出: 分类/序列标注]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="442" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.8;exitY=1;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-28" target="gIrKSQzxlNgPqct7jJk7-30">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="567" y="183" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-19" value="    " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="468" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-29" target="gIrKSQzxlNgPqct7jJk7-31">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-20" value="    %% 双向流动示意" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="494" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-30" target="gIrKSQzxlNgPqct7jJk7-32">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-21" value="    C --&gt;|前向 LSTM| C1[短语上下文]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="520" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-45" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0.09;entryY=0;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-31" target="gIrKSQzxlNgPqct7jJk7-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="945" y="84" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-22" value="    C --&gt;|后向 LSTM| C2[短语上下文]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="546" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-46" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0.09;entryY=1;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-32" target="gIrKSQzxlNgPqct7jJk7-33">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="945" y="183" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-23" value="    E --&gt;|前向 LSTM| E1[语义关联]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="572" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9;exitY=0;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-33" target="gIrKSQzxlNgPqct7jJk7-34">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1235" y="84" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-24" value="    E --&gt;|后向 LSTM| E2[语义关联]" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gIrKSQzxlNgPqct7jJk7-1">
-          <mxGeometry y="598" width="380" height="26" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.9;exitY=1;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-33" target="gIrKSQzxlNgPqct7jJk7-35">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1235" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.51;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-34" target="gIrKSQzxlNgPqct7jJk7-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-50" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.51;entryX=0;entryY=0.51;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-35" target="gIrKSQzxlNgPqct7jJk7-37">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-51" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0.2;entryY=0;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-36" target="gIrKSQzxlNgPqct7jJk7-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1695" y="84" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-52" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.51;entryX=0.2;entryY=1;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-37" target="gIrKSQzxlNgPqct7jJk7-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1695" y="183" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-38" target="gIrKSQzxlNgPqct7jJk7-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
