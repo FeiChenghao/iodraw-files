@@ -209,8 +209,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="d32GJh7KkSoEozv92XEO-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="d32GJh7KkSoEozv92XEO-45" target="d32GJh7KkSoEozv92XEO-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-45" value="BiLSTM输出" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="81" y="560" width="142" height="49" as="geometry" />
+          <mxGeometry x="81" y="560" width="159" height="40" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-46" value="CNN局部特征" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="198" y="642" width="162" height="38" as="geometry" />
@@ -222,7 +225,7 @@
           <mxGeometry x="206" y="720" width="154" height="40" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-50" value="多粒度特征" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="83" y="800" width="140" height="49" as="geometry" />
+          <mxGeometry x="83" y="800" width="157" height="40" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-49" value="活血化瘀:0.9" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-36.5" y="720" width="156.5" height="40" as="geometry" />
