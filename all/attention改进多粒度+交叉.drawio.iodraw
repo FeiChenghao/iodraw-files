@@ -210,13 +210,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-45" value="BiLSTM输出" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="110" y="620" width="142" height="49" as="geometry" />
+          <mxGeometry x="81" y="560" width="142" height="49" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-46" value="CNN局部特征" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="240" y="681" width="154" height="49" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-47" value="Self-Attention全局特征" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="-80" y="681" width="200" height="39" as="geometry" />
+          <mxGeometry x="-40" y="642" width="160" height="39" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-48" value="活血,化瘀" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="270" y="850" width="130" height="49" as="geometry" />
