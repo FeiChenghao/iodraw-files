@@ -162,13 +162,13 @@
         <mxCell id="gIrKSQzxlNgPqct7jJk7-62" value="前向LSTM单元" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="59" y="942" width="160" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-63" value="后向LSTM单元" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-63" value="后向LSTM单元" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="759" y="942" width="160" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-64" value="前向隐藏状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-64" value="前向隐藏状态" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="61" y="1041" width="156" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-65" value="后向隐藏状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-65" value="后向隐藏状态" style="whiteSpace=wrap;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="761" y="1041" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-66" value="特征拼接" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
