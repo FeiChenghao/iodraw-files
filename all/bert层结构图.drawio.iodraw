@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36 Edg/133.0.0.0" version="24.7.17">
   <diagram name="第 1 页" id="X4VEnTVL8Fk9c2isCNyu">
-    <mxGraphModel dx="1426" dy="789" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1846" dy="564" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,10 +8,10 @@
           <mxGeometry x="1235" y="374" width="712" height="218" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-26" value="第一层 Bi-LSTM: 捕捉局部短语" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="260" y="231" width="958" height="227" as="geometry" />
+          <mxGeometry x="227" y="370" width="958" height="227" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-27" value="输入文本 Embedding" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="370" y="70" width="207" height="49" as="geometry" />
+          <mxGeometry x="-30" y="459" width="207" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-28" value="字/词向量: x₁, x₂, x₃, x₄" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="252" y="459" width="239" height="49" as="geometry" />
