@@ -162,8 +162,8 @@
         <mxCell id="gIrKSQzxlNgPqct7jJk7-61" value="&#39;化瘀&#39;" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="741" y="843" width="177" height="49" as="geometry" />
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-62" value="前向LSTM单元" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="171" y="942" width="199" height="68" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-62" value="前向LSTM单元" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="171" y="942" width="160" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-63" value="后向LSTM单元" style="whiteSpace=wrap;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="640.5" y="950" width="160" height="49" as="geometry" />
