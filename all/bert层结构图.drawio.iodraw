@@ -135,8 +135,8 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gIrKSQzxlNgPqct7jJk7-54" value="" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="269" y="1305" width="441" height="396" as="geometry" />
+        <mxCell id="gIrKSQzxlNgPqct7jJk7-54" value="" style="whiteSpace=wrap;strokeWidth=2;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="254" y="1240" width="441" height="396" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-55" value="" style="whiteSpace=wrap;strokeWidth=2;rounded=1;glass=0;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="810" width="900" height="370" as="geometry" />
@@ -175,25 +175,25 @@
           <mxGeometry x="412.5" y="1110" width="124" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-67" value="F" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="455" y="1330" width="68" height="49" as="geometry" />
+          <mxGeometry x="440" y="1265" width="68" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-68" value="前向LSTM单元" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="304" y="1429" width="160" height="49" as="geometry" />
+          <mxGeometry x="289" y="1364" width="160" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-69" value="后向LSTM单元" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="514" y="1429" width="160" height="49" as="geometry" />
+          <mxGeometry x="499" y="1364" width="160" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-70" value="前向隐藏状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="306" y="1528" width="156" height="49" as="geometry" />
+          <mxGeometry x="291" y="1463" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-71" value="后向隐藏状态" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="517" y="1528" width="156" height="49" as="geometry" />
+          <mxGeometry x="502" y="1463" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-72" value="特征拼接" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="427" y="1627" width="124" height="49" as="geometry" />
+          <mxGeometry x="412" y="1562" width="124" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-73" value="输出层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="435" y="1791" width="108" height="49" as="geometry" />
+          <mxGeometry x="420" y="1726" width="108" height="49" as="geometry" />
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-74" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-56" target="gIrKSQzxlNgPqct7jJk7-57">
           <mxGeometry relative="1" as="geometry">
@@ -316,14 +316,14 @@
         <mxCell id="gIrKSQzxlNgPqct7jJk7-92" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.82;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-67" target="gIrKSQzxlNgPqct7jJk7-68">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="384" y="1404" />
+              <mxPoint x="369" y="1339" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-93" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1.01;exitY=0.82;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-67" target="gIrKSQzxlNgPqct7jJk7-69">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="595" y="1404" />
+              <mxPoint x="580" y="1339" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -340,14 +340,14 @@
         <mxCell id="gIrKSQzxlNgPqct7jJk7-96" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.08;entryY=-0.01;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-70" target="gIrKSQzxlNgPqct7jJk7-72">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="384" y="1602" />
+              <mxPoint x="369" y="1537" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="gIrKSQzxlNgPqct7jJk7-97" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.92;entryY=-0.01;rounded=0;" edge="1" parent="1" source="gIrKSQzxlNgPqct7jJk7-71" target="gIrKSQzxlNgPqct7jJk7-72">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="595" y="1602" />
+              <mxPoint x="580" y="1537" />
             </Array>
           </mxGeometry>
         </mxCell>
