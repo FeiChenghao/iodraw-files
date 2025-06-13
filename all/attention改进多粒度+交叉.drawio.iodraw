@@ -219,17 +219,10 @@
           <mxGeometry x="-40" y="642" width="160" height="39" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-48" value="活血,化瘀" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="206" y="720" width="130" height="49" as="geometry" />
+          <mxGeometry x="206" y="720" width="154" height="40" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-50" value="多粒度特征" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="692" y="870" width="140" height="49" as="geometry" />
-        </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-56" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0.17;entryY=0.99;rounded=0;" edge="1" parent="1" source="d32GJh7KkSoEozv92XEO-49" target="d32GJh7KkSoEozv92XEO-50">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="667" y="944" />
-            </Array>
-          </mxGeometry>
+          <mxGeometry x="83" y="800" width="140" height="49" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-49" value="活血化瘀:0.9" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-36.5" y="720" width="156.5" height="40" as="geometry" />
