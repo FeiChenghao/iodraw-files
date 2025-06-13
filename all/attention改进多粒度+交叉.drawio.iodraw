@@ -245,6 +245,9 @@
         <mxCell id="d32GJh7KkSoEozv92XEO-49" value="活血化瘀:0.9" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-38.25" y="720" width="156.5" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="d32GJh7KkSoEozv92XEO-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="525" width="480" height="345" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
