@@ -10,7 +10,7 @@
         <mxCell id="d32GJh7KkSoEozv92XEO-64" value="" style="rounded=0;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=16;fontColor=default;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="20" y="560" width="420" height="340" as="geometry" />
         </mxCell>
-        <mxCell id="d32GJh7KkSoEozv92XEO-1" value="输入药效文本" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="d32GJh7KkSoEozv92XEO-1" value="输入药效文本" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="206" y="80" width="156" height="49" as="geometry" />
         </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-2" value="BERT编码" style="whiteSpace=wrap;strokeWidth=2;fontSize=16;" vertex="1" parent="1">
