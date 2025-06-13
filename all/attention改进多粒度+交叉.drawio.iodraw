@@ -236,6 +236,9 @@
         <mxCell id="d32GJh7KkSoEozv92XEO-50" value="多粒度特征" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="83" y="800" width="157" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="d32GJh7KkSoEozv92XEO-62" style="edgeStyle=orthogonalEdgeStyle;shape=connector;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;endArrow=classic;" edge="1" parent="1" source="d32GJh7KkSoEozv92XEO-49" target="d32GJh7KkSoEozv92XEO-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="d32GJh7KkSoEozv92XEO-49" value="活血化瘀:0.9" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
           <mxGeometry x="-38.25" y="720" width="156.5" height="40" as="geometry" />
         </mxCell>
