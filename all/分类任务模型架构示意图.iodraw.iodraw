@@ -147,8 +147,13 @@
             <mxPoint x="230" y="260" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="AOpV2ItOW8C7fvcjptBw-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="v_guvrckSU65M0w9_LWl-118">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="v_guvrckSU65M0w9_LWl-118" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;dashed=1;" parent="1" vertex="1">
-          <mxGeometry x="620" y="330" width="20" height="170" as="geometry" />
+          <mxGeometry x="620" y="330" width="20" height="240" as="geometry" />
         </mxCell>
         <mxCell id="v_guvrckSU65M0w9_LWl-126" value="" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="210" y="410" width="10" height="10" as="geometry" />
