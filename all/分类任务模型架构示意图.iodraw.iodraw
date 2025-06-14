@@ -88,7 +88,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="v_guvrckSU65M0w9_LWl-95" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
-          <mxGeometry x="120" y="440" width="20" height="60" as="geometry" />
+          <mxGeometry x="120" y="440" width="20" height="130" as="geometry" />
         </mxCell>
         <mxCell id="v_guvrckSU65M0w9_LWl-96" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" parent="1" vertex="1">
           <mxGeometry x="120" y="330" width="20" height="60" as="geometry" />
@@ -418,7 +418,7 @@
           <mxGeometry x="60" y="600" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="AOpV2ItOW8C7fvcjptBw-7" value="Attention" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
-          <mxGeometry x="150" y="530" width="460" height="40" as="geometry" />
+          <mxGeometry x="140" y="530" width="460" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
