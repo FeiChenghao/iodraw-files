@@ -417,6 +417,9 @@
         <mxCell id="AOpV2ItOW8C7fvcjptBw-6" value="分类头" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="60" y="600" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="AOpV2ItOW8C7fvcjptBw-7" value="Attention" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b0e3e6;strokeColor=#0e8088;" vertex="1" parent="1">
+          <mxGeometry x="150" y="530" width="460" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
