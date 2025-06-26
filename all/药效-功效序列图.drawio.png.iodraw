@@ -20,7 +20,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="fRXhxvHX3JR-_RN13KAZ-4" value="药效3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" parent="1" vertex="1">
-          <mxGeometry x="160" y="310" width="40" height="40" as="geometry" />
+          <mxGeometry x="160" y="320" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="fRXhxvHX3JR-_RN13KAZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="fRXhxvHX3JR-_RN13KAZ-5" target="fRXhxvHX3JR-_RN13KAZ-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
